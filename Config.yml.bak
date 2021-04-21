@@ -1,0 +1,11 @@
+items:
+  pickaxes:
+    materials:
+    - wood_pickaxe
+    - stone_pickaxe
+    - iron_pickaxe
+    - gold_pickaxe
+    - diamond_pickaxe
+    - netherite_pickaxe
+    Command:
+    - '[PLAYER] PickEnchant'

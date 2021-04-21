@@ -1,0 +1,4 @@
+name: CommandItemExecute
+main: com.madog24.CommandItemExecute.Main
+version: 0.0.1
+description: Testing plugin
