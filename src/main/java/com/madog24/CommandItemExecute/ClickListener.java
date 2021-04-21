@@ -1,6 +1,5 @@
 package com.madog24.CommandItemExecute;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -19,8 +18,8 @@ public class ClickListener implements Listener{
 	    ItemStack item = event.getItem();
 
 	     if ( action.equals( Action.RIGHT_CLICK_AIR ) || action.equals( Action.RIGHT_CLICK_BLOCK ) ) {
-	         if ( item != null && item.getType() == Material.DIAMOND_PICKAXE ) {
-	             player.sendMessage( "Test1" );
+	         if ( item != null && item.getType().name().toLowerCase().contains("pickaxe") ) {
+	        	 player.sendMessage("/pickenchant");
 	         } 
 	     }
 
